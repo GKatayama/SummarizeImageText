@@ -30,3 +30,4 @@ jobs:
   - script: |
       pylint --disable=all --enable=syntax-error **/*.py
     displayName: 'Run pylint linter'
+    
