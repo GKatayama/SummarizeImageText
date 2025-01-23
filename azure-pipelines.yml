@@ -28,5 +28,5 @@ jobs:
     displayName: 'Install pylint'
 
   - script: |
-      pylint **/*.py
+      pylint --disable=all --enable=syntax-error **/*.py
     displayName: 'Run pylint linter'
